@@ -19,6 +19,7 @@ p{
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 /* body{
   background: #000;
 } */
@@ -138,4 +139,20 @@ header{
 
 .about li a:hover{
   color: #EE8683;
+}
+
+/* Experience Section */
+.exp-class .progress{
+  height: 15px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.progress-bar{
+  background-color: #EE8683 !important;
+}
+
+.exp-class label{
+  font-size: 20px;
+  margin: 10px 10px 10px 4px;
 }
