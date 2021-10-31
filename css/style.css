@@ -172,3 +172,10 @@ header{
   margin: 15px auto;
   background: #e65f78;
 }
+
+/* Hire Me Section */
+.r-btn{
+  padding: 5px 20px;
+  background-color: #EE8683 !important;
+  color: #fff !important;
+}
