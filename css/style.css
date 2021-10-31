@@ -21,7 +21,7 @@ body{
 
 /* Navigation */
 
-nav .r-nav{
+nav.r-nav{
   background: transparent;
   padding: 20px 0;
   transition: .5s all;
@@ -42,4 +42,29 @@ nav .navbar-nav li a{
 
 nav .navbar-nav li{
   margin-left: 15px;
+}
+
+nav.r-nav.stickyadd{
+  background: #fff !important;
+  padding: 15px 0;
+  box-shadow: 0 1px 8px 3px rbga(0,0,0,0.05)e;
+  transition: .5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand{
+  color: #000;
+  font-size: 40px;
+  transition: .5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link{
+  color: #000 !important;
+}
+
+.navbar .hamburger{
+  color: #fff;
+}
+
+nav.stickyadd .hamburger{
+  color: #000;
 }
