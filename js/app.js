@@ -18,4 +18,11 @@ $(document).ready(function(){
     startDelay: 1000
   });
 
+
+// Progress bars
+var p = document.querySelectorAll('.progress-bar');
+p[0].setAttribute("style", "width:100%;transition:1s all");
+p[1].setAttribute("style", "width:60%;transition:1s all");
+p[2].setAttribute("style", "width:40%;transition:1s all");
+p[3].setAttribute("style", "width:75%;transition:1s all");
 });
