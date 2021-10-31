@@ -7,4 +7,15 @@ $(document).ready(function(){
       $(".sticky").removeClass("stickyadd");
     }
   })
-})
+
+  var typed = new Typed(".element", {
+    strings: ["Mohamad Ashmar","a Software Engineer"],
+    smartBackspace: true,
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true,
+    loopCount: Infinity,
+    startDelay: 1000
+  });
+
+});
