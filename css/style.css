@@ -15,9 +15,13 @@ p{
   color: #6c757d;
 }
 
-body{
-  background: #000;
+.r-p{
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
+/* body{
+  background: #000;
+} */
 
 /* Navigation */
 
@@ -116,4 +120,22 @@ header{
 
 .content-box p{
   color: #fff;
+}
+
+/* About Us */
+.about li a{
+  color: #000;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  font-size: 20px;
+  border: 2px solid #d4d4d4;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: 0.5s all;
+  text-align: center;
+}
+
+.about li a:hover{
+  color: #EE8683;
 }
