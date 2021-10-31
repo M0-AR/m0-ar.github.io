@@ -20,6 +20,10 @@ p{
   padding-bottom: 80px;
 }
 
+.bg-sec{
+  background: #F8F9FA
+}
+
 /* body{
   background: #000;
 } */
@@ -155,4 +159,16 @@ header{
 .exp-class label{
   font-size: 20px;
   margin: 10px 10px 10px 4px;
+}
+
+/* Service Section */
+.services-class .card-header i{
+  font-size: 32px;
+}
+
+.service-border{
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  background: #e65f78;
 }
