@@ -36,4 +36,7 @@ var waypoint = new Waypoint({
   offset: '90%'
 });
 
+// Owl Carousel, Todo: not working
+$('.owl-carousel').owlCarousel();
+
 });
