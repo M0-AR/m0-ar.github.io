@@ -179,3 +179,8 @@ header{
   background-color: #EE8683 !important;
   color: #fff !important;
 }
+
+/* Work */
+.w-image {
+  padding-bottom: 1em;
+}

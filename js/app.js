@@ -42,6 +42,6 @@ $('.owl-carousel').owlCarousel();
 });
 
 // Work
-var filterized = $(".fitler-container").filterizr({
+var filterized = $(".filter-container").filterizr({
   animationDuration: .5,
 });
