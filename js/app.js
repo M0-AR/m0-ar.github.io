@@ -40,3 +40,8 @@ var waypoint = new Waypoint({
 $('.owl-carousel').owlCarousel();
 
 });
+
+// Work
+var filterized = $(".fitler-container").filterizr({
+  animationDuration: .5,
+});
