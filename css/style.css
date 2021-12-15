@@ -20,6 +20,14 @@ p{
   padding-bottom: 80px;
 }
 
+.r-p-t{
+  padding-top: 80px;
+}
+
+.r-p-b{
+  padding-bottom: 80px;
+}
+
 .bg-sec{
   background: #F8F9FA
 }
@@ -183,4 +191,10 @@ header{
 /* Work */
 .w-image {
   padding-bottom: 1em;
+}
+
+/* Contact Us */
+.contact .r-icon {
+  font-size: 50px;
+  text-align: center;
 }
