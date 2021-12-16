@@ -5,14 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="lib/owl.carousel.min.css">
   <link rel="stylesheet" href="lib/owl.theme.default.min.css">
   <link rel="icon" href="images/md01.png">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lib/animate.css">
+
   <title>MD | Portfolio</title>
 </head>
 
@@ -21,14 +24,16 @@
     <div class="circle"></div>
   </div>
 
-  <nav class="navbar navbar-expand-lg fixed-top sticky r-nav">
+  <nav class="navbar navbar-expand-md sticky fixed-top r-nav">
     <div class="container">
-      <a href="#" class="navbar-brand">MD</a>
-      <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarId">
+
+      <a class="navbar-brand animated fadeInLeft" href="#">MD</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarId">
         <span><i class="fas fa-bars hamburger"></i></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarId">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a href="" class="nav-link">Home</a>
           </li>
@@ -38,14 +43,14 @@
           <li class="nav-item">
             <a href="" class="nav-link">Services</a>
           </li>
-          <!-- <li class="nav-item">
-            <a href="" class="nav-link">Client</a>
-          </li> -->
           <li class="nav-item">
             <a href="" class="nav-link">Portfolio</a>
           </li>
           <li class="nav-item">
             <a href="" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Github</a>
           </li>
         </ul>
       </div>
@@ -56,7 +61,7 @@
     <div class="container-fluid header-content">
       <div class="row">
         <div class="col text-center">
-          <div class="content-box">
+          <div class="content-box animated fadeInUp">
             <h4>Welcome</h4>
             <h1>I'M <span class="element" style="color:#EE8683;font-weight:bold"></span></h1>
             <p>The website is under development, it will be more efficient in the future.</p>
@@ -302,44 +307,42 @@
             </div>
           </div>
           <div class="container">
-            <div class="row filter-container mx-auto">
-
-
+            <div class="row filter-container mx-auto align-center">
 
               <div class="w-image col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="all">
                 <div>
-                  <img alt="Qries" src="images/matador.PNG" width="400" height="400">
+                  <img alt="Qries" src="images/matador.PNG" width="270" height="320">
                 </div>
               </div>
 
               <div class="w-image col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="2">
                 <div>
-                  <img alt="Qries" src="images/sp.jpg" width="400" height="400">
+                  <img alt="Qries" src="images/sp.jpg" width="270" height="320">
                 </div>
               </div>
 
               <div class="w-image col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="2, 4">
                 <div>
-                  <img alt="Qries" src="images/7cv.jpeg" width="400" height="400">
+                  <img alt="Qries" src="images/7cv.jpeg" width="270" height="320">
                 </div>
               </div>
 
 
-              <div class="w-image col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="all">
+              <div class="w-image col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1">
                 <div>
-                  <img alt="Qries" src="images/se011.JPG" width="400" height="400">
-                </div>
-              </div>
-
-              <div class="w-image col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="3">
-                <div>
-                  <img alt="Qries" src="images/regression_chart.png" width="400" height="400">
+                  <img alt="Qries" src="images/dashboard.JPG" width="270" height="320">
                 </div>
               </div>
 
               <div class="w-image col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="3">
                 <div>
-                  <img alt="Qries" src="images/cluster_plot.png" width="400" height="400">
+                  <img alt="Qries" src="images/regression_chart.png" width="270" height="320">
+                </div>
+              </div>
+
+              <div class="w-image col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="3">
+                <div>
+                  <img alt="Qries" src="images/cluster_plot.png" width="270" height="320">
                 </div>
               </div>
 
@@ -371,33 +374,33 @@
           </div>
 
           <div class="row mt-5">
-            <form>
-
             <div class="col">
-              <div class="form-group way-fade-left">
-                <input type="text" class="form-control" placeholder="Name">
-              </div>
-            </div>
+              <form>
+                <div class="form-row way-fade-left">
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control" placeholder="Name">
+                  </div>
 
-            <div class="col">
-              <div class="text-center">
+                  <div class="form-group col-md-6">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+
                 <div class="form-group way-fade-left">
                   <input type="email" class="form-control" placeholder="Email">
                 </div>
-              </div>
+
+                <div class="form-group way-fade-left">
+                  <input type="text" class="form-control" placeholder="Subject">
+                </div>
+
+                <div class="form-group way-fade-left">
+                  <textarea class="form-control" rows="5" placeholder="Your Message" style="resize:none;"></textarea>
+                </div>
+
+                <button type="submit" class="btn mt-2 r-btn float-right">Submit</button>
+              </form>
             </div>
-
-            <div class="form-group way-fade-left">
-              <input type="text" class="form-control" placeholder="Subject">
-            </div>
-
-            <div class="form-group way-fade-left">
-              <textarea class="form-control" rows="5" placeholder="Your Message" style="resize:none;"></textarea>
-            </div>
-
-            <button type="submit" class="btn mt-2 r-btn float-right">Submit</button>
-          </form>
-
           </div>
         </div>
     </div>
@@ -421,12 +424,14 @@
 
 
 
-  <script src="lib/jquery-3.6.0.min.js"></script>
+  <script src="lib/jquery-3.3.1.min.js"></script>
   <script src="lib/popper.min.js"></script>
-  <script src="lib/js/bootstrap.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/jquery.smooth-scroll.js"></script>
+  <script src="lib/imagesloaded.pkgd.min.js"></script>
+  <script src="lib/owl.carousel.min.js"></script>
   <script src="lib/typed.js"></script>
   <script src="lib/jquery.waypoints.min.js"></script>
-  <script src="lib/owl.carousel.min.js"></script>
   <script src="lib/jquery.filterizr.min.js"></script>
   <script src="js/app.js"></script>
 </body>
