@@ -104,7 +104,7 @@ p {
 /* Navigation */
 nav.r-nav {
   background: transparent;
-  padding: 20px 0;
+  padding: 5px 0;
   transition: .5s all;
 }
 
@@ -157,12 +157,12 @@ header * {
 
 /* Header Section */
 header {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background01.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 0 0;
 }
 
 .header-content {
@@ -312,7 +312,7 @@ footer .r-icon a:hover {
   }
 
   .content-box h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .content-box p {
@@ -323,9 +323,9 @@ footer .r-icon a:hover {
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../images/background.jpg");
+      url("../images/background01.jpg");
     background-repeat: repeat;
     background-size: cover;
-    background-position: -700px 0;
+    background-position: -1050px 40px;
   }
 }
