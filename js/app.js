@@ -51,6 +51,7 @@ var filterized = $(".filter-container").filterizr({
   animationDuration: .5,
 });
 
+// Smooth Scrolling
 $('a').smoothScroll({
-  speed:2000,
+  speed: 2000,
 });
