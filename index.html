@@ -375,7 +375,13 @@
                   class="fab fa-linkedin"></i></a></li>
             <li class="list-inline-item"><a href="https://github.com/M0-AR"><i class="fab fa-github"></i></a></li>
           </div>
-          <p class="text-muted mt-4" style="font-size:14px;">&copy; copyright MD | 2023 All Right</p>
+          <p class="text-muted mt-4" style="font-size:14px;">&copy; copyright MD | <span id="year"></span> All Rights Reserved</p>
+          <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+              const currentYear = new Date().getFullYear(); // Get the current year
+              document.getElementById('year').textContent = currentYear; // Set the current year
+            });
+          </script>
         </div>
       </div>
     </div>
