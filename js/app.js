@@ -14,7 +14,7 @@ $(document).ready(function() {
   })
 
   var typed = new Typed(".element", {
-    strings: ["Mohamad Ashmar", "a Software Engineer"],
+    strings: ["Mohamad Al-Ashmar", "a Software Engineer"],
     smartBackspace: true,
     typeSpeed: 100,
     backSpeed: 100,
@@ -54,4 +54,21 @@ var filterized = $(".filter-container").filterizr({
 // Smooth Scrolling
 $('a').smoothScroll({
   speed: 2000,
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const header = document.querySelector("header");
+  const preloader = document.querySelector(".preloader");
+
+  // Create new image object
+  const img = new Image();
+  img.src = "images/background01-min.JPG";
+
+  img.onload = function () {
+    // Add background once loaded
+    header.classList.add("bg-loaded");
+    // Remove preloader
+    preloader.classList.add("complete");
+  };
 });

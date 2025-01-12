@@ -3,11 +3,7 @@
 
 <head>
   <!-- Preload critical images -->
-    <link 
-        rel="preload" 
-        as="image" 
-        href="../images/background01-min.JPG" 
-        type="image/webp">
+  <link rel="preload" as="image" href="images/background01-min.JPG" fetchpriority="high">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -381,7 +377,8 @@
                   class="fab fa-linkedin"></i></a></li>
             <li class="list-inline-item"><a href="https://github.com/M0-AR"><i class="fab fa-github"></i></a></li>
           </div>
-          <p class="text-muted mt-4" style="font-size:14px;">&copy; copyright MD | <span id="year"></span> All Rights Reserved</p>
+          <p class="text-muted mt-4" style="font-size:14px;">&copy; copyright MD | <span id="year"></span> All Rights
+            Reserved</p>
           <script>
             document.addEventListener('DOMContentLoaded', (event) => {
               const currentYear = new Date().getFullYear(); // Get the current year
